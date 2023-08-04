@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 // ignore: unused_import
 import 'package:flutter/rendering.dart';
 import 'package:v1/screens/home_screen.dart';
+import 'package:v1/screens/profile_screen.dart';
 import 'package:v1/screens/search_screen.dart';
 import 'package:v1/screens/ticket_screen.dart';
 
@@ -24,7 +25,7 @@ class Bottom_barState extends State<Bottom_bar> {
     const Homescreen(),
     const SearchScreen(),
     const TicketScreen(),
-    const Text('Profile'),
+    const ProfileScreen(),
   ];
   void _onItemTapped(int index) {
     // _selectedIndex = index;
