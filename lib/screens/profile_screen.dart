@@ -255,7 +255,7 @@ class ProfileScreen extends StatelessWidget {
                   children: [
                     ColumnLayout(
                       alignment: CrossAxisAlignment.start,
-                      firsttext: '24 459',
+                      firsttext: '24 469',
                       secondtext: 'Miles',
                       isColor: false,
                     ),
